@@ -24,7 +24,7 @@ import random
 
 api_id = 8451490  #Enter Your 7 Digit Telegram API ID.
 api_hash = '97e4bd1fd1b0860ac1b4572a59881fbb'   #Enter Yor 32 Character API Hash
-phone = +17815575246   #Enter Your Mobilr Number With Country Code.
+phone = '+17815575246'   #Enter Your Mobilr Number With Country Code.
 client = TelegramClient(phone, api_id, api_hash)
 async def main():
     # Now you can use all client methods listed below, like for example...
